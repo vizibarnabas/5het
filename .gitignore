@@ -1,0 +1,42 @@
+# Python virtual environment
+.venv/
+virtual/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Build and distribution artifacts
+/build/
+/dist/
+*.egg-info/
+
+# Log files
+*.log
+
+# MLflow files
+mlruns/
+mlflow.db
+mlartifacts/
+
+# Local artifacts and data
+/artifacts/
+*.data
+*.csv
+*.pkl
+*.npy
+*.ipynb_checkpoints
+
+# Ignore all ipynb files in orig_notebooks, but not the directory itself
+orig_notebooks/*.ipynb
+
+# OS-specific files
+.DS_Store
+Thumbs.db
